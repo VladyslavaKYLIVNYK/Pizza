@@ -1,0 +1,93 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.p {
+    font-family: 'Brush Script MT', cursive;
+}
+
+.header {
+    background-color: #000000;
+    padding: 80px;
+}
+
+.header-menu {
+    text-align: right;
+    font-size: 50;
+    font-weight: bold;
+    font-family: 'Brush Script MT', cursive;
+
+}
+
+.header-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu li {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    /*background-color: #ffa3e2;*/
+    color: #fff;
+    font-family: 'Brush Script MT', cursive;
+    /*ширина контуру*/
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: rgb(0, 0, 0);
+    outline-width: thin;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.imgHeader {
+    /*text-align: center;*/
+    background: url('./img/Header.png') no-repeat center center fixed;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+
+.product-pizza {
+    list-style: none;
+    padding: 0;
+}
+
+.product-pizza li {
+    display: inline-block;
+    margin-right: 10px;
+    /* Додатковий відступ між елементами списку*/
+    line-height: 20px;
+    padding: 4px 105px 4px 20px;
+}
+
+.registrationForm {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
